@@ -1,0 +1,13 @@
+Exercicios
+1. C
+2. D
+3. C
+4. Depende, se não adicionar novos atributos na subclasse é "A". Se adicionar novos atributos vai dar erro 
+5. D
+6. D
+7. D
+8. C
+9. a) C
+   b) B (Na minha conta deu 898 e 900)
+   c) C
+   d)
