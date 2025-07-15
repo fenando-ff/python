@@ -26,7 +26,7 @@ class Guerreiro(Personagem):
         self._dano = dano
         
     def ver_vida(self):
-        print(f"{self.get_vida()}")
+        print(f"Vida: {self.get_vida()}")
         
     def atacar(self):
         tentativa = R.randint(1,20)
@@ -44,7 +44,7 @@ class Mago(Personagem):
         self._dano = dano
         
     def ver_vida(self):
-        print(f"{self.get_vida()}")
+        print(f"Vida: {self.get_vida()}")
         
     def atacar(self):
         tentativa = R.randint(1,20)
@@ -64,7 +64,7 @@ class Arqueiro(Personagem):
         self._dano = dano
         
     def ver_vida(self):
-        print(f"{self.get_vida()}")
+        print(f"Vida: {self.get_vida()}")
         
     def atacar(self):
         tentativa = R.randint(1,20)
@@ -87,10 +87,13 @@ while True:
             m = Mago("Felipe",vida,"")
             m.ver_vida()
             m.atacar()
+        case "guerreiro":
+            g = Guerreiro("Fernando",100,"")
+            g.ver_vida()
+        case "arqueiro":
+            a = Arqueiro("Franci",100,"")
+            a.atacar()
+        case "sair":
+            break
             
-g = Guerreiro("Fernando",100,"")
-g.ver_vida()
 
-
-a = Arqueiro("Franci",100,"")
-a.atacar()
